@@ -8,10 +8,10 @@ These scripts are self-sufficient and are proven to work fine on a Raspberry Pi3
 
 ### Prerequisites
 
-*Generic: Up to date Rasberry Pi Rasbian image with InfluxDB installed. Databases need to be configured and listening on UDP sockets as per code.
-*Youless: IP connectivity to the Youless itself.
-*FritzBox: Refer to https://github.com/yunity/fritzinfluxdb. Don't forget to create an user on the FritzBox and make sure the FritzBox is allowing access to read info (UPNP stats etc) and install fritzconnection on your Raspberry Pi.
-*Remeha Calenta: Working USB to Serial adapter. Doublecheck its ID in Linux to make sure it's the same as in the script. Refer to https://github.com/fabienroyer/enphase-envoy/ .
+* Generic: Up to date Rasberry Pi Rasbian image with InfluxDB installed. Databases need to be configured and listening on UDP sockets as per code.
+* Youless: IP connectivity to the Youless itself.
+* FritzBox: Refer to https://github.com/yunity/fritzinfluxdb. Don't forget to create an user on the FritzBox and make sure the FritzBox is allowing access to read info (UPNP stats etc) and install fritzconnection on your Raspberry Pi.
+* Remeha Calenta: Working USB to Serial adapter. Doublecheck its ID in Linux to make sure it's the same as in the script. Refer to https://github.com/fabienroyer/enphase-envoy/ .
 
 ### Installing
 
