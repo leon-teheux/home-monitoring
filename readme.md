@@ -1,6 +1,6 @@
 # Home monitoring collection
 
-This project contains various scripts that can be used to get information from Remeha Calenta boilers, Youless (both electricity and gas) and FritzBox routers. This information is then stored in a local Influx database. This can then be displayed using a tool such as Grafana.
+This project contains various scripts that can be used to get information from Remeha Calenta boilers, P1 Smart Meters, Youless LS110 (both electricity and gas) and FritzBox routers. This information is then stored in a local Influx database. This can then be displayed using a tool such as Grafana.
 
 ## Getting Started
 
@@ -19,6 +19,7 @@ Copy the files to your Raspberry and have them execute regularly. For example, a
 @reboot python /home/pi/youless-gas.py &
 @reboot python /home/pi/youless-stroom.py &
 @reboot sleep && python /home/pi/remeha.py &
+@reboot sleep && python /home/pi/p1-to-influxdb.py &
 
 
 Or with a launcher script:
